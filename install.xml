@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+
+<extension>
+	<name>PLUGIN_YOUTUBE</name>
+	<module>Plugins::YouTube::Plugin</module>
+	<version>0.16</version>
+	<description>PLUGIN_YOUTUBE_DESC</description>
+	<icon>http://cssukgw.dyndns.org/squeezebox/images/youtube-v14-212.png</icon>
+	<defaultState>enabled</defaultState>
+	<targetApplication>
+		<id>SlimServer</id>
+		<minVersion>7.5</minVersion>
+        <maxVersion>7.*</maxVersion>
+	</targetApplication>
+</extension>
